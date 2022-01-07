@@ -7,7 +7,7 @@ div#First-section {
     background-color: #1F2937;
     color: white;
     font-size: 24px;
-    justify-content: space-around;
+    justify-content: center;
     flex-flow: row wrap;
 }
 div.headercontainer{
@@ -16,9 +16,28 @@ div.headercontainer{
     max-width: 1000px;
     align-content: flex-start;
 }
+strong {
+    padding-right: 300px;
+    font-size: 24px;
+}
+p.htext {
+    margin: 0 50px;
+    font-size: 18px;
+}
 div.imageone {
     display: flex;
     background-color: grey;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    flex-flow: row wrap;
+    width: 600px;
+    height: 300px;
+    margin: 50px;
+}
+div.middlecontainer{
+    display: block;
+    justify-content: center;
     text-align: center;
     align-content: center;
 }
