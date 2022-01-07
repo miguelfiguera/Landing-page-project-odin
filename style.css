@@ -16,40 +16,18 @@ div.headercontainer{
     max-width: 1000px;
     align-content: flex-start;
 }
-p.htext{
-    margin: 30px;
-    font-size: 18px;
-}
-strong{
-    justify-content: left;
-    padding-right: 250px;
-    font-size: 24px;
-
-}
-div.middlecontainer{
-    display: flex;
-    max-width: 1000px;
-    flex: 0 0 0%;
-}
 div.imageone {
-    width: 350px;
-    height: 350px;
-    text-align: center;
+    display: flex;
     background-color: grey;
-    margin: 0px;
-    padding: 250px;
+    text-align: center;
     align-content: center;
-    justify-content: center;
-
-}
-div.h1 {
-    max-height: 100px;
 }
 button.first {
     border-radius: 25px;
     background-color: #3882f6;
     border-style: none;
     padding: 5px;
+    justify-content: center;
 }
 div#second-section {
     display: flex;
@@ -174,4 +152,10 @@ div#fifthsection {
     font-size: 24px;
     padding-top: 50px;
     padding-bottom: 50px;
+}
+strong.copy {
+    padding: 0px;
+}
+strong.thor{
+    padding: 0px; 
 }
