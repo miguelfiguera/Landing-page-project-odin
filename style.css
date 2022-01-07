@@ -3,13 +3,11 @@
 }
 
 div#First-section {
-    padding: 200px 760px;
-    border: 10px;
-    margin: 0px;
-    background-color: #1F2937;
-    width: 760px;
-    height: auto;
-    color: white;
+background-color: #1F2937;
+color: white;
+font-size: 24px;
+padding-top: 300px;
+padding-bottom: 300px;
 }
 div#third-section {
     background-color: #e5e7eb;
@@ -20,15 +18,18 @@ div#third-section {
 div#third-section.signature {
     font-size: 24px;
     text-align: right;
+    justify-content: flex-end;
 }
 div#fifthsection {
     background-color: #1F2937;
     color: white;
-    padding: 40px 360px 40px 360px;
-    border: 10px;
-    margin: 0px;
+    text-align: center;
+    font-size: 24px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 div .p.fifthsection {
+    display: flex;
     justify-content: center;
     align-content: center;
 }
