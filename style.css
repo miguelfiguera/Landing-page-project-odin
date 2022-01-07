@@ -7,25 +7,39 @@ div#First-section {
     background-color: #1F2937;
     color: white;
     font-size: 24px;
-    padding-top: 300px;
-    padding-bottom: 300px;
     justify-content: space-around;
     flex-wrap: wrap;
+    flex-direction: row;
+    grid-template-rows: 200px 400px 200px;
+
 }
-h6{
-    align-self: flex-start;
-    justify-content: left;
+div.headercontainer{
+    width: 1000px;
+    height: 50px;
+    align-content: flex-start;
+    justify-content: space-evenly;
     order: 1;
 }
-h1{
-    flex: 1;
-    justify-content: left;
+h6{
+    display: block;
+    width: 100px;
+    height: 50px;
+}
+div.middlecontainer{
+    order: 2;
+}
+button.first {
+    border-radius: 25px;
+    background-color: #3882f6;
+    border-style: none;
+    padding: 5px;
 }
 div#second-section {
     display: flex;
     background-color: white;
     flex-flow: row wrap;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    grid-template-rows: 200px 200px 200px;
 
 }
 .square{
@@ -33,28 +47,51 @@ div#second-section {
     border: 30px;
     background-color: white;
     width: 250px;
+    height: 200px;
     order: 2;
     border-width: 1px;
     border-style: solid;
 }
-p.square.text {
-    width: 250px;
-    padding: 20px;
-    text-align: center;
+div.text{
+    display: flex;
     align-content: flex-end;
     justify-content: space-evenly;
+    order: 3;
+}
+p.square.text {
+    width: 200px;
+    height: 100px;
+    padding: 20px;
+    text-align: center;
+    align-self: flex-end;
     border-color: white;
+    font-size: 18px;
+}
+
+div.square.container{
+    display:flex;
+    justify-content: space-around;
+    height: 100px;
+    width: 1000px;
+    border: 1px transparent;
+    align-content: center;
+
 }
 div.square.geo {
     border-radius: 25px;
     border: 2px solid #3882f6;
+    padding: 50px;
+    height: 50px;
+    width: 50px;
+    align-content: center;
 }
 h3 {
     justify-content: center;
     align-self: flex-start;
     width: 1035px;
-    height: 100px;
+    height: 50px;
     text-align: center;
+    padding: 50px;
 }
 div#third-section {
     display: flex;
@@ -87,21 +124,23 @@ div#internalsquare {
     margin: 50px;
     border: 50px;
     flex-wrap: wrap;
-    flex-direction: column;
+    flex-direction: column; 
+    grid-template-columns: repeat(2, 300px);
 }
 p.call.one{
     flex-flow: column nowrap;
     gap: 10px;
     align-self: flex-start;
-    flex: 1 1 0%;
-
 }
 p.call.two {
     width: 300px;
     height: auto;
     justify-content: left;
     align-self: flex-end;
-    flex: 1 1 0%;
+}
+div#thebutton {
+    display: flex;
+    justify-content: right;
 }
 button {
     flex: 2 1 0%;
@@ -110,7 +149,6 @@ button {
     color: white;
     flex: 2 1 0%;
     align-self: flex-end;
-    flex-wrap: wrap;
 }
 div#fifthsection {
     background-color: #1F2937;
