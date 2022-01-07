@@ -3,25 +3,47 @@
 }
 
 div#First-section {
-    display: grid;
+    display: flex;
     background-color: #1F2937;
     color: white;
     font-size: 24px;
     justify-content: space-around;
-    grid-template-rows: 200px 400px;
+    flex-flow: row wrap;
 }
 div.headercontainer{
-    width: 1000px;
-    height: 50px;
-    grid-template-rows: 50px;
-    align-content: ;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000px;
+    align-content: flex-start;
 }
-h6{
-    width: 100px;
-    height: 50px;
+p.htext{
+    margin: 30px;
+    font-size: 18px;
+}
+strong{
+    justify-content: left;
+    padding-right: 250px;
+    font-size: 24px;
+
 }
 div.middlecontainer{
-    order: 2;
+    display: flex;
+    max-width: 1000px;
+    flex: 0 0 0%;
+}
+div.imageone {
+    width: 350px;
+    height: 350px;
+    text-align: center;
+    background-color: grey;
+    margin: 0px;
+    padding: 250px;
+    align-content: center;
+    justify-content: center;
+
+}
+div.h1 {
+    max-height: 100px;
 }
 button.first {
     border-radius: 25px;
