@@ -9,11 +9,52 @@ div#First-section {
     font-size: 24px;
     padding-top: 300px;
     padding-bottom: 300px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+h6{
+    align-self: flex-start;
+    justify-content: left;
+    order: 1;
+}
+h1{
+    flex: 1;
+    justify-content: left;
 }
 div#second-section {
     display: flex;
     background-color: white;
-    
+    flex-flow: row wrap;
+    justify-content: space-between;
+
+}
+.square{
+    padding: 100px;
+    border: 30px;
+    background-color: white;
+    width: 250px;
+    order: 2;
+    border-width: 1px;
+    border-style: solid;
+}
+p.square.text {
+    width: 250px;
+    padding: 20px;
+    text-align: center;
+    align-content: flex-end;
+    justify-content: space-evenly;
+    border-color: white;
+}
+div.square.geo {
+    border-radius: 25px;
+    border: 2px solid #3882f6;
+}
+h3 {
+    justify-content: center;
+    align-self: flex-start;
+    width: 1035px;
+    height: 100px;
+    text-align: center;
 }
 div#third-section {
     display: flex;
@@ -22,10 +63,11 @@ div#third-section {
     font-size: 36px;
     flex-wrap: wrap;
     justify-content: center;
-    border 50px;
+    border: 0px;
+    padding: 100px 50px;
 }
 p.signature {
-    flex: 1 1 0%;
+    flex: 1;
     font-size: 24px;
     text-align: right;
     justify-content: right;
@@ -35,16 +77,40 @@ div#fourth-section {
     display: flex;
     background-color: white;
     border: auto;
+    justify-content: center;
 }
 div#internalsquare {
     background-color: #3882f6;
     color: white;
     display: flex;
-    padding: 50px 100px;
+    padding: 100px 200px;
     margin: 50px;
-    border: 10px;
+    border: 50px;
     flex-wrap: wrap;
-    justify-content: center;
+    flex-direction: column;
+}
+p.call.one{
+    flex-flow: column nowrap;
+    gap: 10px;
+    align-self: flex-start;
+    flex: 1 1 0%;
+
+}
+p.call.two {
+    width: 300px;
+    height: auto;
+    justify-content: left;
+    align-self: flex-end;
+    flex: 1 1 0%;
+}
+button {
+    flex: 2 1 0%;
+    background-color: #3882f6;
+    border-color: white;
+    color: white;
+    flex: 2 1 0%;
+    align-self: flex-end;
+    flex-wrap: wrap;
 }
 div#fifthsection {
     background-color: #1F2937;
