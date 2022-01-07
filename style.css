@@ -20,6 +20,10 @@ div#third-section.signature {
     text-align: right;
     justify-content: flex-end;
 }
+div#fourth-section {
+    background-color: #3882f6;
+    color: white;
+}
 div#fifthsection {
     background-color: #1F2937;
     color: white;
