@@ -3,26 +3,48 @@
 }
 
 div#First-section {
-background-color: #1F2937;
-color: white;
-font-size: 24px;
-padding-top: 300px;
-padding-bottom: 300px;
+    display: flex;
+    background-color: #1F2937;
+    color: white;
+    font-size: 24px;
+    padding-top: 300px;
+    padding-bottom: 300px;
+}
+div#second-section {
+    display: flex;
+    background-color: white;
+    
 }
 div#third-section {
+    display: flex;
     background-color: #e5e7eb;
     color: black;
-    text-align: center;
     font-size: 36px;
+    flex-wrap: wrap;
+    justify-content: center;
+    border 50px;
 }
-div#third-section.signature {
+p.signature {
+    flex: 1 1 0%;
     font-size: 24px;
     text-align: right;
-    justify-content: flex-end;
+    justify-content: right;
+    margin: 10px;
 }
 div#fourth-section {
+    display: flex;
+    background-color: white;
+    border: auto;
+}
+div#internalsquare {
     background-color: #3882f6;
     color: white;
+    display: flex;
+    padding: 50px 100px;
+    margin: 50px;
+    border: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 div#fifthsection {
     background-color: #1F2937;
@@ -31,9 +53,4 @@ div#fifthsection {
     font-size: 24px;
     padding-top: 50px;
     padding-bottom: 50px;
-}
-div .p.fifthsection {
-    display: flex;
-    justify-content: center;
-    align-content: center;
 }
