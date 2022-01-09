@@ -97,6 +97,7 @@ div.text {
     font-size: 18px;
     justify-content: space-evenly;
     flex-basis: 1080px;
+    margin-bottom: 50px;
 }
 p.square.text {
     margin: 0 30px;
@@ -104,5 +105,58 @@ p.square.text {
     height: 50px;
 }
 div#third-section{
+    display: flex;
+    background-color: #e5e7eb;
+    flex-basis: 1080px;
+    height: auto;
+    flex-flow: row wrap;
+    justify-content: center;
+    padding: 100px;
+}
+p.quote {
+    flex-basis: 750px;
+    height: 100px;
+    text-align: center;
+    font-size: 36px;
+    color: #1F2937;
+}
+p.signature {
+    align-self: right;
+    padding-left: 600px;
+}
+div#fourth-section {
+    padding: 100px;
+    display: flex;
+    background-color: #FFF;
+    justify-content: center;
+    flex-flow: row wrap;
+
+}
+div#internalsquare {
+    background-color: #3882f6;
+    color: white;
+    padding: 50px;  
+}
+div#thebutton { 
+    background-color: #3882f6;
+    padding: 50px;
+    padding-top:100px;
     
+}
+button{
+    color: white;
+    border-radius: 25px;
+    border: 2px white solid;
+    background-color: #3882f6;
+    padding: 10px
+ 
+}
+div#fifthsection{
+    display: flex;
+    background-color: #1F2937;
+    justify-content: center;
+    color: white;
+    height: 100px;
+    margin: 0px;
+    border: 0px;
 }
