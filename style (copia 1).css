@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+#First-section {
+    display: flex;
+    background-color: #1F2937;
+    color: white;
+    flex-basis: 1080px;
+    height: auto;
+    flex-direction: row wrap;
+}
+div .headercontainer{
+    display: flex;
+    align-self: flex-start;
+    height: 100px;
+    padding: 30px;
+    margin: 0px;
+    flex: 1 1 1080px;
+    justify-content: space-around;
+    align-content: flex-start;
+    font-size: 18px;
+}
+.headercontainer strong{
+    padding-right: 300px;
+    flex-basis: 300px;
+    font-size: 24px;
+}
+#middlecontainer{
+    display: flex;
+    background-color: #1F2937;
+    color: white;
+    flex-basis: 1080px;
+    height: auto;
+    flex-flow: column wrap;
+}
