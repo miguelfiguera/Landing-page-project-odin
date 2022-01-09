@@ -25,11 +25,84 @@ div .headercontainer{
     flex-basis: 300px;
     font-size: 24px;
 }
+p.htext{
+    height: 20px;
+}
 #middlecontainer{
     display: flex;
     background-color: #1F2937;
     color: white;
+    flex-flow: row wrap;
+    padding: 75px;
+    flex: 1 1 100%;
+    justify-content: space-around;
+    
+}
+div.left { 
+    flex-basis: 540px;
+    justify-content: left;
+    display: flex;
+    flex-direction: column;
+}    
+h1{ 
+    align-self: flex-start;
+    max-height: 200px;
+    font-size: 48px;
+    color: #F9FAF8;   
+}
+button.first {
+    align-self: center;
+    flex: 0;
+    border-radius: 25px;
+    border: 2px solid blue;
+    color: white;
+    background: blue;
+}
+div.imageone {
+    align-content: center;
+    justify-content: center;
+    background-color: grey;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    flex-basis: 540px;
+}
+div#second-section{
+    display: flex;
+    background-color: white;
     flex-basis: 1080px;
-    height: auto;
-    flex-flow: column wrap;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+h3{
+    width: 1080px;
+    text-align: center;
+    height: 150px;
+}
+div.square.container{
+    display: flex;
+    flex-basis: 1080px;
+    background-color: white;
+    justify-content: space-evenly;
+
+}
+div.square.geo {
+    flex-basis: 200px;
+    height: 200px;
+    border: 2px solid blue;
+    border-radius: 25px;
+}
+div.text {
+    display: flex;
+    font-size: 18px;
+    justify-content: space-evenly;
+    flex-basis: 1080px;
+}
+p.square.text {
+    margin: 0 30px;
+    width: 80px;
+    height: 50px;
+}
+div#third-section{
+    
 }
